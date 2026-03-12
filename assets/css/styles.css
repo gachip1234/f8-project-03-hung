@@ -24,7 +24,6 @@ body {
   display: flex;
   row-gap: 170px;
   flex-direction: column;
-  height: 10000px;
   font-family: "Sora", sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
@@ -896,4 +895,228 @@ button {
 
 .news__link:hover {
   color: var(--primary-color);
+}
+/* Cta */
+.cta,
+.cta__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta__container {
+  background: #f6fbff;
+  padding: 100px 0;
+}
+
+.cta__title {
+  display: flex;
+  flex-direction: column;
+  color: var(--text-color);
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  align-items: center;
+}
+
+.cta__line {
+  display: flex;
+  width: 136px;
+  height: 3px;
+  margin-top: 16px;
+  background: var(--primary-color);
+}
+
+.cta__content {
+  color: var(--text-muted);
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75;
+  margin-top: 18px;
+}
+
+.cta__btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+  width: 205px;
+  height: 60px;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 400;
+}
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bg-secondary);
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.footer__top {
+  color: var(--secondary-color);
+  display: flex;
+  column-gap: 78px;
+  margin-bottom: 22px;
+}
+
+.footer__slogan {
+  color: #a9b3bb;
+  font-family: "Open Sans";
+  margin-top: 21px;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75;
+  width: 336px;
+}
+
+.footer__brand {
+  display: flex;
+  width: 336px;
+  flex-direction: column;
+}
+
+.footer__title {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75;
+  margin-bottom: 20px;
+}
+
+.footer__link {
+  display: inline-flex;
+  color: #a9b3bb;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86;
+  margin-bottom: 10px;
+}
+
+.footer-support-12.footer__title {
+  padding-top: 18px;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer__social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  color: var(--primary-color);
+  border-radius: 50%;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  margin-bottom: 28px;
+}
+
+.footer__social-link:hover {
+  color: var(--text-contrast);
+  background-color: var(--primary-color);
+}
+
+.footer__desc {
+  color: #a9b3bb;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86;
+  width: 273px;
+}
+
+.footer__form {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  column-gap: 12px;
+  width: 332px;
+  height: 46px;
+  margin-top: 10px;
+}
+
+.footer__input {
+  display: inline-flex;
+  width: 212px;
+  height: 46px;
+  border-radius: 4px;
+  border: 1px solid #406181;
+  padding: 10px 0;
+  background-color: transparent;
+  color: #9ca8b1;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86;
+  padding-left: 10px;
+}
+
+.footer__submit-btn {
+  padding: 10px 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 46px;
+  color: var(--text-contrast);
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86;
+}
+
+.footer__submit-btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  outline: 2px solid var(--primary-color);
+  outline-offset: -1px;
+}
+
+.footer__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #406181;
+}
+
+.footer__copyright {
+  color: #aab3ba;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86;
+  margin-top: 28px;
+  margin-bottom: 42px;
 }
