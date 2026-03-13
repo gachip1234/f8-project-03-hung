@@ -133,13 +133,13 @@ button {
 }
 .header__nav .header__menu {
   display: flex;
-  gap: 42px;
+  gap: 22px;
 }
 
 .header__menu-link,
 .header__link--login {
   color: #c9d2da;
-  padding: 6px 6px;
+  padding: 10px 10px;
 }
 
 .header__menu-link:hover {
