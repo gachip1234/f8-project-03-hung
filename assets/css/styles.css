@@ -139,6 +139,7 @@ button {
 .header__menu-link,
 .header__link--login {
   color: #c9d2da;
+  padding: 6px 6px;
 }
 
 .header__menu-link:hover {
@@ -1005,10 +1006,17 @@ button {
   color: #a9b3bb;
   font-family: "Open Sans";
   font-size: 1.4rem;
+  width: 100%;
+  flex-shrink: 0;
   font-style: normal;
   font-weight: 400;
   line-height: 1.86;
   margin-bottom: 10px;
+  transition: text-shadow 0.3s ease;
+}
+
+.footer__link:hover {
+  text-shadow: var(--text-contrast) 0px 0px 2px;
 }
 
 .footer-support-12.footer__title {
